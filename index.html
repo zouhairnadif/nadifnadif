@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/2536149e84.js" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/@deckdeckgo/highlight-code@latest/dist/deckdeckgo-highlight-code/deckdeckgo-highlight-code.esm.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rampart+One&family=Rubik+Iso&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik+Iso&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rampart+One&family=Rubik+Iso&family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rampart+One&family=Rubik+Iso&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Press+Start+2P&family=Rampart+One&family=Rubik+Iso&family=Share+Tech+Mono&family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Press+Start+2P&family=Rampart+One&family=Rubik+Iso&family=Zilla+Slab:ital,wght@1,300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script  defer src="script.js"></script>
+
+
+
+  </head>
+
+    <title>Zouhair Nadif</title>
+</head>
+<body>
+    <script>
+        window.onload = function(){
+  Particles.init({
+    selector: '.background',
+    maxParticles: 150,
+    connectParticles: 'non',
+    speed:2,
+    minDistance: 140,
+    sizeVariations: 4,
+    color: '#4D4C7D'
+  });
+}
+            window.addEventListener("scroll",function(){
+                var header = document.querySelector("aside");
+                header.classList.toggle("sticky",window.scrollY > 0);
+            })
+        </script>
+   <main>
+    <canvas class="background"></canvas>
+    <div class="navigation">
+        <button class="hamburger" onclick="show()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </button>
+
+        <nav>
+            <ul>
+                 <li><a id="btn_style" href="#section_2">About</a></li>
+                <li><a id="btn_style" href="#section_3">Contact</a> </li>
+                <li><a id="btn_style" href="#section_4">Services</a></li>
+                <li><a id="btn_style" href="#section_5">Contact</a></li>
+                <li><a id="button" class="bounce_btn" href="res/rsm.pdf" target="_blank">Resume</a>
+            </ul>
+        </nav>
+
+    </div>
+    <section id="section_1">
+        <aside id="sidebar" >
+            <h3 id="logo" style="font-family: 'Rampart One', cursive;">ZN</h3>
+            
+            <div id="bottom_side_bar">
+    
+                    <a href="https://twitter.com/NdfZouhair" >
+                        <img src="res/twitter.png" width="20px" height="20px"   alt="">
+                    </a>
+    
+                    <a href="https://www.linkedin.com/in/zouhair-nadif-738a79237/" >
+                        <img src="res/linkedin.png" width="20px" height="20px"   alt="">
+                    </a>
+    
+                    <a href="https://web.facebook.com/zohirnadif" >
+                        <img src="res/facebook.png" width="20px" height="20px"   alt="">
+                    </a>
+    
+    
+                    <a href="https://github.com/zouhairnadif" >
+                        <img src="res/github.png" width="20px" height="20px"   alt="">
+                    </a>
+    
+            </div>
+        </aside>
+        <div class="container">
+             <div class="content">
+                <h6 style="font-family: 'Rampart One', cursive;transform: rotate(5deg);">Hi, my name is</h6>
+            <h1 style="    font-family: 'Rubik Iso', cursive;transform: rotate(-3deg);">Zouhair Nadif.</h1>
+            <h2 class="hidden">
+                <b style="font-family: 'Rampart One', cursive;"> I'm</b> <span id="auto-type" style="font-family: 'Rampart One', cursive;" ></span> 
+            </h2>
+                <p style="font-family: 'Press Start 2P', cursive;"> Software Developer, IT Help Desk,Cyber Security Student,I have a great interest in technology and research, Working With my own hands ,  Contact me
+                    or send me an email at <a  style="font-family: 'Rampart One', cursive;" id="mail_a" class="hidden" href="mailto:zouhair.ndf@gmail.com?subject = Feedback &amp; body = Message"> &nbsp; Zouhair.NDF@gmail.com</a>   .
+                </p> 
+                </div>
+                
+        </div>
+        <a href="#section_2">
+            <div class="scrolldown">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </a>
+        
+    </section>
+    <canvas class="background"></canvas>
+
+    <section id="section_2">
+        <div class="container" >
+            <h6 class="hidden" style="font-family: 'Rampart One', cursive;
+            font-family: 'Rubik Iso', cursive;"> -About Me</h6>
+
+            <div class="content">
+
+                    <p class="hidden" style="font-family: 'Dancing Script', cursive;">
+                        Hello! My name is <b style="font-family: 'Rampart One', cursive;">  Zouhair Nadif </b> and I enjoy creating Softwares  that makes life  more easier. My interest in Technologies in generale   started back in the childhood when I decided to open My House Desktop so this was my first intrat with technology  . 
+                        Fast-forward to today, and I’ve had profesionale studies in programming and also many certificate in sevral technology fields like Networking , cyber security , My main focus these days is building web apps ,web stores,python automation script,and many more                             
+                         Here are a few technologies .
+
+
+                    </p>
+                    
+
+
+                
+               </div>
+       </div>
+        
+    </section>
+
+    <section id="section_3" >
+        <div class="container" style="margin-top: 0px;">
+            <h1 style="font-family: 'Rampart One', cursive;
+            font-family: 'Rubik Iso', cursive;">-My Services</h1>
+            <div class="services">
+                <i class="fa-sharp fa-solid fa-screwdriver-wrench"></i> 
+                <h2>IT sepcialist</h2>
+                <p>I am a skilled IT professional with extensive experience in providing technical support and troubleshooting assistance to end-users. I am expertise in IT help desk services includes knowledge of various operating systems, software applications, and hardware components. I have a keen eye for identifying and resolving technical issues promptly, ensuring minimal downtime and disruptions for users. My excellent communication skills allow you to effectively communicate technical solutions to non-technical users, making complex technical issues understandable.</p>
+            </div>
+            <div class="row">
+                <div class="services">
+                    <i class="fa-solid fa-palette"></i> 
+                    <h2>Web Design</h2>
+<p>I am  web designer with years of experience creating visually stunning and user-friendly websites for a diverse range of clients. Your expertise in web design includes proficiency in HTML, CSS, and JavaScript, as well as a deep understanding of design principles, user experience, and SEO.</p>            
+    </div>
+                
+                
+                <div class="services">
+                    <i class="fa-solid fa-code"></i> 
+                    <h2>App Development</h2>
+                    <p>Proficient in app development with experience in several technoloogies . Skilled in developing responsive and user-friendly  applications using languages such as php,C#,JavaScript... Passionate about staying up-to-date with the latest trends and technologies in app development, including cross-platform development, app architecture, and UI/UX design. Demonstrated ability to work collaboratively in a team environment, communicate effectively with clients.</p>
+                </div>
+                
+                <div class="services">
+                    <i class="fa-solid fa-network-wired"></i> 
+                    <h2>Networking</h2>
+                    <p>i am still a Student  in computer networking student , with experience in designing, implementing, and maintaining network infrastructures.  Demonstrated ability to work collaboratively in a team environment, communicate effectively with clients, and resolve network issues efficiently</p> 
+                </div>
+                <div class="services">
+                    <i class="fa-sharp fa-solid fa-user-secret"></i> 
+                    <h2>cyber Security</h2>
+                    <p>i am still a Beginner in   cyber security with experience in identifying and mitigating security risks and threats. Skilled in implementing security controls and protocols to safeguard systems, networks, and data.  Demonstrated ability to work collaboratively in a team environment, communicate effectively with clients, and develop and implement effective security strategies to mitigate risk.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="section_4">
+        <div class="container" style="margin-top: 0;">
+            <div class="content">
+                <deckgo-highlight-code language="c">
+                    <code slot="code">
+                        public class Person
+                        {
+                            public string Name { get; set; }
+                            public string LastName  { get; set; }
+                            public string Email { get; set; }
+                            public string Country { get; set; }
+                            public int Age { get; set; }
+                            public Person(string name,string lastname,string email,string ,int age)
+                            {
+                                Name = name;
+                                LastName = lastname;
+                                Email = email;
+                                Country = country;
+                                Age = age;
+                            }
+                            // Other properties, methods, events...
+                        }
+                        
+                        class Program
+                        {
+                            static void Main()
+                            {
+                                Person person_1 = new Person("Zouhair","Nadif","zouhair.ndf@gmail.com","Morocco", 22);
+                                Console.WriteLine("person_1 Name = {0} person_1 Lastname = {1} Email = {2} person_1 Country = {3} Age = {4}", person_1.Name, person_1.LastName, person_1.Email, person_1.Country, person_1.Age);
+    
+                            }
+                        }
+                    </code>
+                    </deckgo-highlight-code>
+                    
+                    <deckgo-highlight-code id="poo" language="html">
+                    <code slot="code">
+                    &lt;h1> Thanks For Watching! &lt;/h1>
+                    </code>
+                    </deckgo-highlight-code>
+    
+            </div>
+
+        </div>
+    </section>
+<style>
+    input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid var(--seconde-global); /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: var(--seconde-global);
+  color: var(--text-color);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+label{
+    color: var(--text-color);
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: var(--seconde-global);
+}
+
+/* Add a background color and some padding around the form */
+
+</style>
+    <section id="section_5">
+        <div class="container" >
+            <h6 class="hidden" style="font-family: 'Rampart One', cursive;
+            font-family: 'Rubik Iso', cursive;"> -Contact Me</h6>
+
+            <div class="content">
+
+                <form action="https://formspree.io/f/xbjejoqk"method="POST" style="position: absolute;">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+                
+                    <label for="country">Country</label>
+                    <select id="country" name="country" required>
+                      <option value="Morocco">Morocco</option>
+                      <option value="Other">Other</option>
+                    </select>
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                
+                    <input type="submit" value="Send Message">
+                  </form>
+                    
+
+
+                
+               </div>
+       </div>
+        
+    </section>
+ <!--   <div class="timeline">
+
+        <div class="containerr left-containerr">
+            <img src="" alt="" id="img">
+            <div class="text-box">
+            <h2>Alphabet Inc.</h2>
+            <small>2018 - 2019</small>
+            <p id="p_1">The success of every websites depends on search engine optimisation and digital
+            marketing strategy. If you are on first page of all major search...</p>
+            <span class="left-container-arrow"></span>
+            </div>
+            </div>
+            <div class="containerr right-containerr">
+                <img src="" alt="" id="img">
+                <div class="text-box">
+                <h2>Alphabet Inc.</h2>
+                <small>2018 - 2019</small>
+                <p id="p_1">The success of every websites depends on search engine optimisation and digital
+                marketing strategy. If you are on first page of all major search...</p>
+                <span class="right-container-arrow"></span>
+
+                </div>
+                </div>
+                <div class="containerr left-containerr">
+                    <img src="" alt="" id="img">
+                    <div class="text-box">
+                    <h2>Alphabet Inc.</h2>
+                    <small>2018 - 2019</small>
+                    <p id="p_1">The success of every websites depends on search engine optimisation and digital
+                    marketing strategy. If you are on first page of all major search...</p>
+                    <span class="left-container-arrow"></span>
+                    </div>
+                    </div>
+                    <div class="containerr right-containerr">
+                        <img src="" alt="" id="img">
+                        <div class="text-box">
+                        <h2>Alphabet Inc.</h2>
+                        <small>2018 - 2019</small>
+                        <p id="p_1">The success of every websites depends on search engine optimisation and digital
+                        marketing strategy. If you are on first page of all major search...</p>
+                        <span class="right-container-arrow"></span>
+        
+                        </div>
+                        </div>    
+
+           
+    </div>-->
+    
+
+    
+
+
+
+   </main>
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+    var typed = new Typed("#auto-type",{
+        strings : ["Software Developer .","IT Specialist .","Cyber Security student ."],
+        typeSpeed : 110,
+        backSpeed : 50,
+        loop:true
+    })
+   </script>
+</body>
+</html>
